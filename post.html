@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Prefilled Post</title>
+  <script>
+    function shareOnLinkedIn() {
+      const text = 'Just entered to win a #Treagergrill at #southerntechfest2023 with @morris!';
+      const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(text)}`;
+      window.location.href = url;
+    }
+  </script>
+</head>
+<body onload="shareOnLinkedIn()">
+</body>
+</html>
